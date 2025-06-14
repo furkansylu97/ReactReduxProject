@@ -1,30 +1,35 @@
+import Angular from "../assets/img/angular.jpg"
+import Bootstrap from "../assets/img/bootstrap5.png"
+import CCsharp from "../assets/img/ccsharp.png"
+import Allweb from "../assets/img/kompleweb.jpg"
+
 const courseItems = [
   {
     id: '1',
-    title: 'C Programlama Eğitimi',
+    title: 'Angular Programming Course',
     price: '69',
-    img: 'https://www.canboz.com/Assets/img/canboz/c.png',
+    img: Angular,
     quantity: 1,
   },
   {
     id: '2',
-    title: 'C# Eğitimi',
+    title: 'Bootstrap Course',
     price: '69',
-    img: 'https://www.canboz.com/Assets/img/canboz/csharp.png',
+    img: Bootstrap,
     quantity: 1,
   },
   {
     id: '3',
-    title: 'Typescript Eğitimi',
+    title: 'C & C# Programming Course',
     price: '69',
-    img: 'https://www.canboz.com/Assets/img/canboz/typescript.jpg',
+    img: CCsharp,
     quantity: 1,
   },
   {
     id: '4',
-    title: 'React Eğitimi',
+    title: 'Allweb Course',
     price: '69 ',
-    img: 'https://www.canboz.com/Assets/img/canboz/react.png',
+    img: Allweb,
     quantity: 1,
   },
 ];
