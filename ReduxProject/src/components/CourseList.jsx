@@ -8,14 +8,14 @@ function CourseList() {
   return (
     <>
       {quantity < 1 ? (
-        <section>
+        <section className="CartWrapper">
           <header>
             <h2>My Cart</h2>
             <h4>Empty Cart</h4>
           </header>
         </section>
       ) : (
-        <section>
+        <section className="CartWrapper">
           <header>
             <h2>My Cart</h2>
           </header>
@@ -24,14 +24,14 @@ function CourseList() {
               return <CourseItem key={item.id} {...item} />;
             })}
           </div>
-          <footer>
+          <footer className="footer">
             <hr />
             <div>
               <h4>
                 Total Price <span>{total} ₺</span>
               </h4>
             </div>
-            <button>Clear</button>
+            <button className="CartClearBtn">Clear</button>
           </footer>
         </section>
       )}
