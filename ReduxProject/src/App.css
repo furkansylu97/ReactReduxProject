@@ -1,0 +1,25 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+
+.NavbarIconWrapper {
+    position: relative;
+}
+
+.Navbarquantity {
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.ItemsIcon {
+    position: absolute;
+    bottom: 10px;
+     right: 10px;
+}
